@@ -11,7 +11,7 @@ import { Paragraph, Subtitle1, Subtitle2, Caption, ButtonText1, ButtonText2 } fr
 import { BtnPrimary, BtnSecondary, BtnSuccess, BtnDanger, BtnWarning } from "./Button/Default";
 import { BtnPrimaried, BtnSecondaried } from "./Button/Rounded";
 import { warna, FontResp } from '../custome/styles';
-
+ 
 
 storiesOf('Typography', module)
   .add('Heading', () => (
