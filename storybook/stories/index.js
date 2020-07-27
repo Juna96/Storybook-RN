@@ -1,17 +1,17 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-import { storiesOf } from '@storybook/react-native';
-import { action } from '@storybook/addon-actions';
+import { storiesOf, } from '@storybook/react-native';
+import { action, } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
 import CenterView from './CenterView';
-import { Heading1, Heading2, Heading3, Heading4, Heading5 } from './Typography/Heading';
+import { H1, H2, H3, H4, H5, H6 } from './Typography/Heading';
 import { Paragraph, Subtitle1, Subtitle2, Caption, ButtonText1, ButtonText2 } from "./Typography/Type";
 import { BtnPrimary, BtnSecondary, BtnSuccess, BtnDanger, BtnWarning } from "./Button/Default";
 import { BtnPrimaried, BtnSecondaried } from "./Button/Rounded";
 import { warna, FontResp } from '../custome/styles';
- 
+
 
 storiesOf('Typography', module)
   .add('Heading', () => (
@@ -20,11 +20,12 @@ storiesOf('Typography', module)
         <Text style={{ fontWeight: '300' }}>Font Name : FrankRuhlLibre</Text>
         <Text style={{ fontWeight: '300' }}>Font Weight: Medium - Bold</Text>
       </View>
-      <Heading1>Heading 1</Heading1>
-      <Heading2>Heading 2</Heading2>
-      <Heading3>Heading 3</Heading3>
-      <Heading4>Heading 4</Heading4>
-      <Heading5>Heading 5</Heading5>
+      <H1>Headline 1</H1>
+      <H2>Headline 2</H2>
+      <H3>Headline 3</H3>
+      <H4>Headline 4</H4>
+      <H5>Headline 5</H5>
+      <H6>Headline 6</H6>
     </CenterView>
   ))
 

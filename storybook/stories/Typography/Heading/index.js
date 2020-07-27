@@ -1,5 +1,6 @@
-export { default as Heading1 }          from './heading1';
-export { default as Heading2 }          from './heading2';
-export { default as Heading3 }          from './heading3';
-export { default as Heading4 }          from './heading4';
-export { default as Heading5 }          from './heading5';
+export { default as H1 }          from './headline1';
+export { default as H2 }          from './headline2';
+export { default as H3 }          from './headline3';
+export { default as H4 }          from './headline4';
+export { default as H5 }          from './headline5';
+export { default as H6 }          from './headline6';

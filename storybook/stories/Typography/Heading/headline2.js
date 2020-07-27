@@ -3,25 +3,25 @@ import PropTypes from 'prop-types';
 import { Text } from 'react-native';
 import { warna, font, FontResp } from "../../../custome/styles";
 
-function Heading4({ children, numberOfLines, style }) {
+function Headline2({ children, numberOfLines, style }) {
     return (
         <Text numberOfLines={numberOfLines}
-            style={[font.fontMedium, {
-                fontSize: FontResp(4),
+            style={[font.fontLight, {
+                fontSize: FontResp(8),
                 color: warna.primaryText,
-                // letterSpacing: -0.5
+                letterSpacing: -0.5
             }, style]}>{children}</Text>
     );
 }
 
 
-Heading4.defaultProps = {
+Headline2.defaultProps = {
     children: null,
 };
 
-Heading4.propTypes = {
+Headline2.propTypes = {
     children: PropTypes.node,
 };
 
 
-export default Heading4;
+export default Headline2;
